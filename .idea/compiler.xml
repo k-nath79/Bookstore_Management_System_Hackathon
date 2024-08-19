@@ -13,10 +13,14 @@
         <module name="DiscoveryService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConfigService" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BookService" options="-parameters" />
+      <module name="ConfigService" options="-parameters" />
       <module name="CustomerService" options="-parameters" />
       <module name="DiscoveryService" options="-parameters" />
       <module name="OrderService" options="-parameters" />
